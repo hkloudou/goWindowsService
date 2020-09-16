@@ -32,7 +32,7 @@ go install github.com/akavel/rsrc
 ```
 brew install mingw-w64
 
-env CGO_ENABLED=1 GOOS=windows GOARCH=386 CC=i686-w64-mingw32-gcc go build -ldflags="-w -s" -o service.exe service/*.go
+env CGO_ENABLED=1 GOOS=windows GOARCH=386 CC=i686-w64-mingw32-gcc go build -ldflags="-w -s" -o output/service.exe
 
 ```
 ## 5.copy
