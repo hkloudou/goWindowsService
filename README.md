@@ -1,7 +1,7 @@
 # goWindowsService
 > what we do?
 > 
-> Step1.Run Serice as SYSTEM
+> Step1.Run Service as SYSTEM
 > 
 > Step2.Run a program as an administrator(current user) when your system startup
 ## 1.Star this project ,haha
