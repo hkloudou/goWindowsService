@@ -22,7 +22,7 @@ var appPath = "app.exe"   // your app path
 ```
 ## 4.build
 
-### windos（recommend）
+### windows（recommend）
 > run build.bat
 
 ### mac
