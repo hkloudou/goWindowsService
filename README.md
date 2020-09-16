@@ -3,7 +3,7 @@
 > 
 > Step1.Run Serice as SYSTEM
 > 
-> Step2.Run a program as an administrator(current user)
+> Step2.Run a program as an administrator(current user) when your system startup
 ## 1.Star this project ,haha
 ## 2.clone to your workspace
 ```
