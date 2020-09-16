@@ -23,6 +23,9 @@ var appPath = "app.exe"   // your app path
 ## 4.build
 
 ### windows（recommend）
+```
+go install github.com/akavel/rsrc
+```
 > run build.bat
 
 ### mac
@@ -41,3 +44,5 @@ env CGO_ENABLED=1 GOOS=windows GOARCH=386 CC=i686-w64-mingw32-gcc go build -ldfl
 # LINKS
 1. https://gist.github.com/LiamHaworth/1ac37f7fb6018293fc43f86993db24fc
 2. https://github.com/joesilva01862/ScreenshotWindowsService
+3. https://github.com/akavel/rsrc
+4. github.com/kardianos/service
