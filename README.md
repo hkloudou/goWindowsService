@@ -35,3 +35,8 @@ env CGO_ENABLED=1 GOOS=windows GOARCH=386 CC=i686-w64-mingw32-gcc go build -ldfl
 1. copy your allpication "app.exe"(same as config.go) to output dictionary
 2. pack your output dictionary as a zip
 3. run output/install.bat
+> TIP: add -ldflags="-w -s -H windowsgui" to build windowless app when you biuld your own app.exe.
+
+# LINKS
+1. https://gist.github.com/LiamHaworth/1ac37f7fb6018293fc43f86993db24fc
+2. https://github.com/joesilva01862/ScreenshotWindowsService
