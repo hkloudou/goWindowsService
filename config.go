@@ -1,4 +1,4 @@
 package main
 
 var serviceName = "EtaxHelper"
-var appName = "app.exe"
+var appPath = "app.exe"

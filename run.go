@@ -34,7 +34,7 @@ func runit() {
 	// 这里循环主要是避免用户还没登录的时候，无法运行。每5秒尝试一次启动app
 	go func() {
 		for {
-			if err := StartProcessAsCurrentUser(fmt.Sprintf("%sEtaxHelper.exe", p), fmt.Sprintf("%sEtaxHelper.exe run", p), p, true); err == nil {
+			if err := StartProcessAsCurrentUser(fmt.Sprintf("%s%s", p, appPath), fmt.Sprintf("%s%s run", p, appPath), p, true); err == nil {
 				break
 			}
 			time.Sleep(5 * time.Second)
