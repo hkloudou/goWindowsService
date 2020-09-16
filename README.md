@@ -3,7 +3,7 @@
 > 
 > Step1.Run Service as SYSTEM
 > 
-> Step2.Run a program as an administrator(current user) when your system startup
+> Step2.Run app.exe(config.go) as an administrator(current user) when your system startup
 ## 1.Star this project ,haha
 ## 2.clone to your workspace
 ```
