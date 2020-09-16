@@ -12,8 +12,8 @@ import (
 
 var serviceConfig = &service.Config{
 	Name:        serviceName,
-	DisplayName: "Etax大树企服税务自动化工具",
-	Description: "微信：18666028946(不接受电话沟通，可短信。)",
+	DisplayName: serviceDisplayName,
+	Description: serviceDescription,
 }
 var logger service.Logger
 
