@@ -34,7 +34,7 @@ env CGO_ENABLED=1 GOOS=windows GOARCH=386 CC=i686-w64-mingw32-gcc go build -ldfl
 ```
 ## 5.copy
 1. copy your allpication "app.exe"(same as config.go) to output dictionary
-2. pack your output dictionary as a zip
+2. pack your output directory as a zip
 3. run output/install.bat
 > TIP: add -ldflags="-w -s -H windowsgui" to build windowless app when you biuld your own app.exe.
 
