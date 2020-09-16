@@ -32,8 +32,6 @@ brew install mingw-w64
 env CGO_ENABLED=1 GOOS=windows GOARCH=386 CC=i686-w64-mingw32-gcc go build -ldflags="-w -s" -o service.exe service/*.go
 ```
 ## 5.copy
-> copy your allpication "app.exe"(same as config.go) to output dictionary
->
-> pack your output dictionary as a zip
->
-> run output/install.bat
+1. copy your allpication "app.exe"(same as config.go) to output dictionary
+2. pack your output dictionary as a zip
+3. run output/install.bat
